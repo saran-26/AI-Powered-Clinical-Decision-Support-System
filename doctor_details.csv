@@ -1,0 +1,51 @@
+doctor_id,doctor_name,department,experience_years,success_rate,patient_load,avg_consult_time
+1,Dr. Doctor_1,Cardiology,9,68.3,12,29
+2,Dr. Doctor_2,Orthopedics,29,76.5,9,22
+3,Dr. Doctor_3,Emergency,13,93.2,16,36
+4,Dr. Doctor_4,Cardiology,26,85.8,5,44
+5,Dr. Doctor_5,Neurology,16,91.0,19,54
+6,Dr. Doctor_6,Cardiology,14,76.0,29,11
+7,Dr. Doctor_7,Neurology,9,66.3,22,50
+8,Dr. Doctor_8,General Medicine,14,94.2,30,54
+9,Dr. Doctor_9,Orthopedics,7,65.5,7,49
+10,Dr. Doctor_10,Cardiology,33,93.4,26,57
+11,Dr. Doctor_11,Orthopedics,22,76.1,30,33
+12,Dr. Doctor_12,Cardiology,8,65.3,23,38
+13,Dr. Doctor_13,Neurology,27,85.7,25,12
+14,Dr. Doctor_14,Neurology,16,94.4,30,54
+15,Dr. Doctor_15,Cardiology,24,94.0,17,13
+16,Dr. Doctor_16,General Medicine,16,69.8,28,59
+17,Dr. Doctor_17,Neurology,17,70.4,30,11
+18,Dr. Doctor_18,Oncology,33,82.0,25,29
+19,Dr. Doctor_19,Oncology,19,84.1,22,24
+20,Dr. Doctor_20,Orthopedics,21,87.2,19,58
+21,Dr. Doctor_21,Oncology,3,70.4,19,41
+22,Dr. Doctor_22,Oncology,24,93.8,10,51
+23,Dr. Doctor_23,General Medicine,31,84.2,35,10
+24,Dr. Doctor_24,General Medicine,4,90.4,32,47
+25,Dr. Doctor_25,Emergency,2,81.2,12,44
+26,Dr. Doctor_26,Emergency,23,77.4,33,16
+27,Dr. Doctor_27,General Medicine,30,94.3,25,54
+28,Dr. Doctor_28,Emergency,15,82.5,21,22
+29,Dr. Doctor_29,General Medicine,29,91.0,28,58
+30,Dr. Doctor_30,Emergency,22,93.6,35,10
+31,Dr. Doctor_31,Neurology,33,85.3,38,23
+32,Dr. Doctor_32,General Medicine,7,81.5,6,38
+33,Dr. Doctor_33,Orthopedics,2,65.1,7,12
+34,Dr. Doctor_34,Orthopedics,22,66.2,34,55
+35,Dr. Doctor_35,General Medicine,5,71.0,12,33
+36,Dr. Doctor_36,Oncology,4,70.6,11,10
+37,Dr. Doctor_37,Orthopedics,31,72.6,16,57
+38,Dr. Doctor_38,Oncology,32,74.1,23,19
+39,Dr. Doctor_39,Orthopedics,20,75.8,30,22
+40,Dr. Doctor_40,Cardiology,21,77.6,32,45
+41,Dr. Doctor_41,Cardiology,24,68.0,19,18
+42,Dr. Doctor_42,General Medicine,26,66.3,18,23
+43,Dr. Doctor_43,Orthopedics,16,85.2,18,45
+44,Dr. Doctor_44,Neurology,24,81.1,7,19
+45,Dr. Doctor_45,Oncology,3,78.3,33,49
+46,Dr. Doctor_46,Orthopedics,16,84.0,10,32
+47,Dr. Doctor_47,General Medicine,11,89.8,27,44
+48,Dr. Doctor_48,Oncology,15,77.8,32,16
+49,Dr. Doctor_49,Emergency,28,84.2,18,51
+50,Dr. Doctor_50,General Medicine,15,93.6,18,44

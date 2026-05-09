@@ -1,0 +1,4 @@
+,Accuracy
+XGBoost_Clf,0.7
+RandomForest_Clf,0.715
+CatBoost_Clf,0.71

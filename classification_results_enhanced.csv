@@ -1,0 +1,5 @@
+,Accuracy,CV_Score
+XGBoost_Clf,1.0,1.0
+RandomForest_Clf,1.0,1.0
+CatBoost_Clf,1.0,1.0
+GradientBoosting_Clf,1.0,1.0

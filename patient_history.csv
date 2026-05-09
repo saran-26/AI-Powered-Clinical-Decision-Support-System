@@ -1,0 +1,1001 @@
+patient_id,age,gender,disease,severity_level,previous_conditions,previous_treatments,smoking_status,bmi,blood_pressure,heart_rate,outcome_history
+1,69,Female,Heart Disease,3,None,0,Yes,27.9,172,69,First Time
+2,32,Male,Infectious,2,"Diabetes, BP",1,Yes,32.2,162,106,Recovered
+3,89,Female,Cancer,1,1,Surgery,No,34.9,117,101,First Time
+4,78,Male,Gastrointestinal,1,Asthma,Therapy,Yes,21.2,124,115,First Time
+5,38,Male,Orthopedic,2,"Diabetes, BP",Therapy,Yes,29.9,99,82,Complication
+6,41,Female,Cancer,2,"Diabetes, BP",Surgery,Yes,29.6,154,77,First Time
+7,20,Female,Gastrointestinal,2,0,Therapy,Yes,34.7,131,60,First Time
+8,39,Male,Neurological,1,"Diabetes, BP",Surgery,No,34.8,174,94,Recovered
+9,70,Female,Orthopedic,3,0,0,No,29.8,98,112,First Time
+10,19,Female,Gastrointestinal,1,Asthma,Medication,No,22.5,149,117,Recovered
+11,47,Female,Respiratory,1,None,1,No,31.7,104,90,Complication
+12,55,Female,Gastrointestinal,1,None,Surgery,No,20.3,146,118,Recovered
+13,19,Female,Heart Disease,1,Asthma,1,No,31.4,158,103,Re-admitted
+14,81,Other,Infectious,2,Asthma,0,No,33.5,111,60,Re-admitted
+15,77,Female,Neurological,2,2,Medication,No,24.8,153,62,Recovered
+16,38,Female,Gastrointestinal,1,Asthma,0,Yes,28.9,130,62,Re-admitted
+17,50,Female,Infectious,2,"Diabetes, BP",Therapy,No,25.6,176,96,Complication
+18,75,Female,Diabetes,1,None,1,No,25.7,160,78,Re-admitted
+19,39,Male,Diabetes,2,1,Medication,No,23.6,145,88,Recovered
+20,66,Male,Infectious,3,None,Therapy,No,31.1,112,84,Complication
+21,76,Male,Infectious,1,0,Medication,No,33.9,114,92,Re-admitted
+22,59,Male,Heart Disease,2,None,Therapy,No,34.0,95,95,Complication
+23,77,Female,Respiratory,1,2,0,Yes,21.4,123,88,Recovered
+24,32,Female,Neurological,1,Asthma,Surgery,No,32.9,152,117,Re-admitted
+25,79,Female,Cancer,1,Asthma,1,No,30.7,98,85,Complication
+26,79,Male,Heart Disease,2,None,2,No,22.7,149,63,Complication
+27,64,Female,Respiratory,2,1,2,Yes,19.6,138,108,Re-admitted
+28,79,Female,Infectious,1,1,0,No,22.9,140,73,Complication
+29,68,Female,Cancer,3,2,1,No,33.6,149,109,Complication
+30,72,Female,Infectious,2,0,1,Yes,28.9,159,86,Recovered
+31,81,Female,Infectious,3,None,0,No,30.4,126,92,Recovered
+32,20,Male,Diabetes,2,Asthma,1,Yes,22.7,120,81,Recovered
+33,68,Female,Diabetes,2,None,Surgery,No,30.4,130,107,Recovered
+34,24,Male,Cancer,1,2,0,No,19.0,151,62,Recovered
+35,38,Male,Heart Disease,1,"Diabetes, BP",Surgery,No,24.7,147,82,Recovered
+36,56,Female,Diabetes,3,"Diabetes, BP",1,Yes,28.8,103,80,Re-admitted
+37,35,Male,Neurological,1,2,0,No,20.9,125,100,Recovered
+38,21,Female,Infectious,3,Asthma,1,Yes,32.1,125,82,Complication
+39,77,Male,Orthopedic,2,2,0,Yes,22.4,168,63,Re-admitted
+40,31,Female,Gastrointestinal,1,Asthma,1,Yes,29.3,97,80,Complication
+41,26,Male,Cancer,1,1,Surgery,Yes,25.2,115,96,Recovered
+42,70,Female,Cancer,1,2,Surgery,No,28.3,125,102,Recovered
+43,19,Female,Diabetes,3,Asthma,1,Yes,20.3,137,90,Complication
+44,77,Male,Heart Disease,2,2,0,No,18.8,174,80,Complication
+45,88,Female,Infectious,1,2,2,No,33.5,117,85,Complication
+46,61,Other,Neurological,1,Asthma,Surgery,No,22.9,157,100,First Time
+47,25,Male,Heart Disease,1,Asthma,Surgery,No,32.0,151,117,First Time
+48,64,Male,Respiratory,2,0,Therapy,No,35.0,169,94,First Time
+49,52,Female,Respiratory,1,2,2,No,22.0,175,97,First Time
+50,53,Female,Orthopedic,3,"Diabetes, BP",1,Yes,22.9,165,83,Re-admitted
+51,67,Female,Diabetes,1,2,0,No,29.4,169,70,Recovered
+52,21,Female,Diabetes,1,2,Therapy,Yes,34.4,140,100,Complication
+53,19,Male,Diabetes,2,Asthma,1,Yes,33.6,131,88,Recovered
+54,23,Male,Orthopedic,2,2,Medication,Yes,26.8,118,106,Complication
+55,71,Female,Respiratory,3,None,Surgery,No,31.6,171,114,Recovered
+56,21,Male,Heart Disease,2,2,Medication,Yes,20.7,99,119,Re-admitted
+57,71,Male,Orthopedic,1,None,Surgery,No,34.6,128,62,First Time
+58,80,Female,Orthopedic,2,"Diabetes, BP",Surgery,Yes,34.4,171,60,Recovered
+59,35,Female,Heart Disease,1,Asthma,Medication,No,21.2,90,111,Complication
+60,61,Female,Diabetes,1,2,Medication,Yes,23.4,128,113,Recovered
+61,51,Female,Neurological,3,None,1,Yes,20.2,110,78,Re-admitted
+62,79,Female,Heart Disease,2,None,Therapy,No,23.0,154,105,Re-admitted
+63,31,Female,Respiratory,3,None,Therapy,Yes,32.0,104,108,Recovered
+64,65,Female,Cancer,2,1,Medication,No,24.7,93,81,First Time
+65,32,Male,Infectious,2,0,1,No,20.0,149,73,Complication
+66,89,Male,Cancer,1,"Diabetes, BP",Therapy,Yes,24.1,150,108,Re-admitted
+67,79,Female,Gastrointestinal,1,2,1,No,34.7,109,116,Re-admitted
+68,57,Female,Gastrointestinal,3,1,1,Yes,28.9,99,118,Recovered
+69,70,Male,Orthopedic,1,2,Surgery,No,25.4,176,73,Re-admitted
+70,41,Male,Infectious,3,2,Therapy,Yes,21.2,123,103,Re-admitted
+71,43,Male,Cancer,2,Asthma,Therapy,No,34.8,137,75,Complication
+72,77,Male,Neurological,1,Asthma,Surgery,Yes,32.0,122,92,First Time
+73,58,Female,Diabetes,2,Asthma,Medication,No,23.1,150,72,Complication
+74,46,Male,Respiratory,2,1,Surgery,No,19.7,99,97,First Time
+75,32,Female,Gastrointestinal,1,2,Therapy,No,19.4,143,108,Complication
+76,62,Female,Neurological,3,0,Therapy,No,20.5,173,71,Recovered
+77,82,Female,Respiratory,2,"Diabetes, BP",Medication,No,28.1,154,114,Re-admitted
+78,88,Female,Respiratory,1,Asthma,Surgery,No,33.8,166,110,First Time
+79,26,Male,Diabetes,2,Asthma,0,Yes,26.7,90,97,Recovered
+80,18,Female,Infectious,3,2,0,Yes,32.4,94,98,Re-admitted
+81,25,Male,Orthopedic,1,2,Medication,Yes,25.9,169,92,Re-admitted
+82,80,Male,Cancer,3,1,Surgery,No,30.2,104,92,Re-admitted
+83,28,Female,Diabetes,1,1,Surgery,No,30.6,117,88,Complication
+84,25,Male,Neurological,2,Asthma,1,No,21.4,112,64,Recovered
+85,52,Male,Orthopedic,2,2,Therapy,Yes,24.5,106,65,Recovered
+86,52,Female,Neurological,1,0,2,No,29.0,102,90,Re-admitted
+87,50,Male,Orthopedic,1,"Diabetes, BP",Medication,Yes,19.7,103,75,First Time
+88,22,Female,Infectious,2,2,2,No,24.5,100,90,Recovered
+89,58,Male,Gastrointestinal,2,2,2,No,27.3,117,84,Complication
+90,45,Female,Neurological,2,None,Medication,No,34.9,131,107,First Time
+91,24,Female,Diabetes,1,1,Surgery,No,26.3,150,105,First Time
+92,89,Female,Orthopedic,3,"Diabetes, BP",Medication,No,32.0,153,92,First Time
+93,29,Female,Orthopedic,2,Asthma,2,Yes,25.6,120,72,First Time
+94,51,Male,Respiratory,3,2,Therapy,No,31.6,170,111,Recovered
+95,50,Female,Respiratory,1,Asthma,Therapy,Yes,28.3,162,69,Re-admitted
+96,65,Male,Heart Disease,2,2,Therapy,No,33.1,99,83,First Time
+97,40,Female,Neurological,2,Asthma,Surgery,No,25.3,97,69,Complication
+98,79,Male,Respiratory,1,"Diabetes, BP",0,Yes,28.5,110,100,Complication
+99,54,Female,Heart Disease,2,1,Medication,Yes,28.9,166,90,Re-admitted
+100,61,Male,Gastrointestinal,1,"Diabetes, BP",Therapy,No,25.4,148,72,Recovered
+101,52,Female,Gastrointestinal,2,None,Medication,No,20.9,139,62,Re-admitted
+102,82,Female,Respiratory,2,0,Therapy,No,20.0,158,118,First Time
+103,64,Female,Neurological,1,1,Surgery,Yes,18.8,159,109,Recovered
+104,20,Male,Orthopedic,2,"Diabetes, BP",0,Yes,32.9,119,111,Recovered
+105,18,Female,Cancer,2,None,0,No,22.4,106,93,First Time
+106,22,Male,Infectious,1,0,Therapy,No,22.0,164,108,Complication
+107,31,Male,Neurological,3,None,Surgery,Yes,30.6,109,87,First Time
+108,44,Male,Infectious,3,2,1,No,23.8,137,78,Re-admitted
+109,26,Male,Diabetes,2,2,Medication,Yes,26.8,162,82,First Time
+110,32,Female,Gastrointestinal,1,Asthma,Medication,No,21.2,91,104,Complication
+111,59,Female,Respiratory,2,1,2,No,34.3,126,91,First Time
+112,68,Male,Respiratory,2,2,Surgery,No,32.6,90,72,Re-admitted
+113,80,Male,Infectious,1,None,2,No,32.8,93,92,Re-admitted
+114,69,Male,Orthopedic,2,1,Therapy,No,25.2,143,93,Complication
+115,21,Male,Infectious,2,2,2,Yes,31.1,114,92,Re-admitted
+116,40,Female,Diabetes,2,Asthma,0,Yes,20.9,92,115,Re-admitted
+117,32,Male,Orthopedic,2,"Diabetes, BP",Medication,No,18.6,98,64,First Time
+118,60,Male,Diabetes,2,Asthma,2,No,18.8,175,115,Recovered
+119,46,Male,Cancer,3,0,0,No,28.2,176,62,Re-admitted
+120,53,Female,Gastrointestinal,1,2,Surgery,No,26.0,165,119,Re-admitted
+121,30,Female,Respiratory,2,0,2,No,27.0,163,66,Complication
+122,49,Female,Respiratory,3,0,Therapy,Yes,18.6,123,83,Complication
+123,88,Female,Cancer,2,None,Therapy,No,25.5,132,81,First Time
+124,76,Female,Heart Disease,2,1,Therapy,No,30.3,163,104,First Time
+125,45,Male,Gastrointestinal,2,None,Medication,No,25.8,111,82,Re-admitted
+126,83,Female,Orthopedic,2,2,2,No,30.6,159,89,Recovered
+127,59,Female,Cancer,3,0,Surgery,Yes,22.3,91,119,Recovered
+128,62,Female,Orthopedic,2,"Diabetes, BP",2,No,31.9,155,77,First Time
+129,79,Female,Infectious,3,0,Medication,No,28.2,121,91,Complication
+130,74,Female,Neurological,1,"Diabetes, BP",0,No,22.0,105,115,Re-admitted
+131,23,Female,Respiratory,1,None,Medication,Yes,22.4,165,112,Re-admitted
+132,45,Other,Orthopedic,2,None,Therapy,Yes,28.9,90,66,Recovered
+133,45,Female,Diabetes,1,1,0,Yes,32.2,161,92,First Time
+134,61,Female,Orthopedic,1,0,Therapy,Yes,25.4,137,64,Recovered
+135,47,Female,Neurological,1,Asthma,1,No,22.8,139,108,Recovered
+136,79,Male,Gastrointestinal,1,None,Medication,No,32.8,102,87,First Time
+137,79,Female,Respiratory,1,None,Medication,No,29.5,104,67,Complication
+138,18,Male,Infectious,3,1,Surgery,No,25.9,142,74,Re-admitted
+139,44,Female,Cancer,1,"Diabetes, BP",2,No,26.6,133,111,Complication
+140,79,Other,Infectious,2,1,0,Yes,21.9,97,63,First Time
+141,20,Female,Neurological,2,0,0,No,28.8,163,93,First Time
+142,87,Male,Respiratory,3,2,Surgery,No,24.4,135,64,Re-admitted
+143,89,Male,Orthopedic,1,2,Surgery,Yes,34.9,158,92,Complication
+144,44,Male,Gastrointestinal,3,"Diabetes, BP",2,Yes,26.4,108,116,Re-admitted
+145,26,Female,Heart Disease,2,None,Therapy,No,26.5,127,64,Recovered
+146,79,Male,Gastrointestinal,2,"Diabetes, BP",2,No,27.8,100,97,Recovered
+147,54,Male,Heart Disease,2,None,Medication,No,33.6,132,93,Recovered
+148,68,Male,Diabetes,3,None,Therapy,Yes,31.7,109,117,Complication
+149,61,Female,Gastrointestinal,1,2,1,No,25.9,109,85,Recovered
+150,41,Female,Respiratory,2,"Diabetes, BP",2,No,30.4,110,60,Re-admitted
+151,76,Male,Heart Disease,2,1,Surgery,Yes,28.2,171,63,Complication
+152,49,Male,Cancer,2,None,Therapy,No,26.6,146,98,Re-admitted
+153,69,Female,Respiratory,3,Asthma,2,Yes,21.7,139,113,First Time
+154,79,Female,Cancer,1,Asthma,0,No,26.2,163,85,Complication
+155,75,Female,Gastrointestinal,3,1,1,Yes,22.6,115,92,Re-admitted
+156,69,Male,Cancer,1,Asthma,Medication,Yes,33.6,119,92,Re-admitted
+157,29,Female,Heart Disease,1,0,0,Yes,24.0,162,67,Complication
+158,56,Female,Respiratory,1,None,0,Yes,34.2,120,79,First Time
+159,19,Female,Orthopedic,1,1,1,No,27.3,131,75,Complication
+160,20,Female,Neurological,2,"Diabetes, BP",Medication,Yes,28.9,157,80,Recovered
+161,73,Male,Heart Disease,1,None,Surgery,No,27.5,150,104,Recovered
+162,76,Male,Heart Disease,1,1,Therapy,Yes,20.6,150,114,First Time
+163,19,Female,Orthopedic,3,2,Medication,No,24.7,159,115,Re-admitted
+164,19,Female,Respiratory,3,"Diabetes, BP",2,No,20.1,167,85,Re-admitted
+165,71,Female,Respiratory,3,2,0,Yes,28.8,157,82,Re-admitted
+166,18,Female,Infectious,3,None,2,No,25.9,179,77,Complication
+167,36,Female,Gastrointestinal,2,"Diabetes, BP",Surgery,Yes,31.3,106,90,Complication
+168,19,Female,Cancer,1,Asthma,2,No,22.1,108,111,First Time
+169,70,Male,Gastrointestinal,1,1,Medication,No,21.2,140,101,Recovered
+170,61,Female,Orthopedic,2,None,2,No,25.2,159,71,Re-admitted
+171,49,Male,Gastrointestinal,1,0,Surgery,No,33.8,152,60,Recovered
+172,87,Male,Orthopedic,2,"Diabetes, BP",Surgery,No,30.2,164,101,Complication
+173,49,Other,Respiratory,1,"Diabetes, BP",Surgery,Yes,25.4,169,68,Complication
+174,85,Male,Cancer,1,None,Medication,Yes,27.0,119,62,Complication
+175,72,Male,Gastrointestinal,2,None,Surgery,No,19.9,114,119,Recovered
+176,73,Male,Heart Disease,2,2,0,No,34.7,164,110,First Time
+177,34,Female,Diabetes,2,Asthma,Surgery,No,29.5,160,85,First Time
+178,55,Male,Infectious,2,2,2,No,23.2,115,68,Complication
+179,41,Male,Neurological,1,2,Therapy,No,28.2,145,101,Re-admitted
+180,86,Male,Heart Disease,1,Asthma,2,No,20.3,111,110,Recovered
+181,87,Male,Respiratory,3,0,Therapy,No,34.4,178,75,Complication
+182,28,Male,Neurological,2,2,2,No,21.4,108,83,Recovered
+183,33,Male,Diabetes,1,2,Medication,No,29.2,120,109,Recovered
+184,76,Female,Diabetes,3,"Diabetes, BP",2,Yes,22.5,115,73,First Time
+185,87,Male,Cancer,1,Asthma,Medication,Yes,30.3,131,62,Complication
+186,20,Male,Neurological,2,1,Medication,No,31.3,130,93,First Time
+187,37,Male,Cancer,1,0,Surgery,Yes,29.6,112,92,Complication
+188,76,Male,Heart Disease,2,0,0,No,28.6,136,109,Recovered
+189,53,Female,Orthopedic,2,Asthma,Therapy,No,33.2,102,83,First Time
+190,36,Female,Orthopedic,1,None,Surgery,No,19.8,178,68,Recovered
+191,84,Male,Orthopedic,3,None,Surgery,No,24.0,155,72,Complication
+192,36,Male,Neurological,2,"Diabetes, BP",Medication,No,22.6,155,61,Re-admitted
+193,37,Male,Orthopedic,1,"Diabetes, BP",Medication,No,34.8,105,66,First Time
+194,88,Female,Heart Disease,1,Asthma,Therapy,No,24.9,162,107,First Time
+195,69,Female,Cancer,1,"Diabetes, BP",2,No,30.6,117,80,Recovered
+196,50,Female,Neurological,1,0,2,No,29.8,166,78,Recovered
+197,57,Male,Cancer,2,0,Surgery,No,22.0,124,84,Re-admitted
+198,56,Female,Neurological,3,1,1,No,22.4,130,106,First Time
+199,18,Male,Cancer,2,None,1,No,23.1,166,81,Complication
+200,28,Male,Diabetes,1,Asthma,2,No,25.3,120,70,Complication
+201,74,Male,Cancer,1,2,1,No,22.4,174,92,First Time
+202,67,Male,Orthopedic,1,None,2,No,18.8,121,91,First Time
+203,40,Female,Diabetes,2,2,Medication,No,33.0,143,80,First Time
+204,48,Female,Cancer,2,1,Surgery,No,34.4,161,98,Re-admitted
+205,59,Male,Neurological,1,1,0,No,24.1,148,79,Complication
+206,24,Female,Neurological,2,"Diabetes, BP",Surgery,No,24.1,130,67,Complication
+207,33,Other,Infectious,3,1,2,No,18.6,155,101,Recovered
+208,77,Female,Neurological,2,1,2,No,29.7,143,96,Recovered
+209,19,Female,Respiratory,3,2,Surgery,No,32.1,129,68,First Time
+210,18,Female,Heart Disease,2,"Diabetes, BP",Therapy,No,20.9,117,84,Recovered
+211,65,Other,Neurological,2,1,2,Yes,21.1,126,84,Re-admitted
+212,29,Female,Diabetes,2,None,1,No,31.5,154,92,Complication
+213,86,Male,Infectious,2,1,1,No,28.7,163,61,Complication
+214,54,Male,Neurological,1,"Diabetes, BP",2,No,19.2,144,78,Recovered
+215,49,Female,Respiratory,1,Asthma,2,No,28.8,93,105,First Time
+216,26,Male,Orthopedic,1,"Diabetes, BP",Therapy,No,23.6,99,79,Recovered
+217,36,Female,Diabetes,2,2,1,No,24.6,136,101,First Time
+218,65,Male,Respiratory,1,Asthma,2,Yes,31.2,164,100,Re-admitted
+219,20,Male,Orthopedic,3,None,2,No,31.9,103,101,Complication
+220,37,Male,Gastrointestinal,2,0,Therapy,No,25.1,127,88,Re-admitted
+221,41,Male,Gastrointestinal,2,"Diabetes, BP",Therapy,Yes,34.1,101,65,Complication
+222,71,Female,Diabetes,1,2,Surgery,Yes,25.2,134,76,Re-admitted
+223,50,Female,Cancer,3,None,Therapy,No,31.2,106,119,Recovered
+224,41,Female,Heart Disease,3,Asthma,0,No,26.5,169,84,Re-admitted
+225,89,Female,Infectious,2,None,1,Yes,33.3,124,97,Re-admitted
+226,53,Male,Heart Disease,1,"Diabetes, BP",Surgery,No,33.5,155,63,Recovered
+227,55,Female,Respiratory,2,1,0,No,19.9,164,89,Complication
+228,42,Female,Orthopedic,1,"Diabetes, BP",2,No,34.0,130,79,Complication
+229,35,Female,Heart Disease,1,0,2,No,32.1,156,62,Recovered
+230,83,Male,Orthopedic,2,"Diabetes, BP",Surgery,No,31.6,118,82,Re-admitted
+231,71,Female,Orthopedic,2,Asthma,Therapy,No,21.8,107,110,Re-admitted
+232,52,Female,Respiratory,2,Asthma,2,No,31.8,109,77,Re-admitted
+233,78,Other,Respiratory,3,"Diabetes, BP",Medication,No,32.5,103,85,First Time
+234,58,Female,Respiratory,2,Asthma,Surgery,Yes,23.3,123,115,Complication
+235,50,Male,Heart Disease,2,1,0,No,34.2,138,95,Re-admitted
+236,85,Female,Gastrointestinal,1,None,Surgery,Yes,19.3,143,67,Complication
+237,50,Female,Respiratory,3,"Diabetes, BP",1,Yes,21.0,120,76,Re-admitted
+238,31,Male,Infectious,1,1,Therapy,Yes,27.4,147,90,Recovered
+239,38,Female,Heart Disease,3,None,Therapy,Yes,28.0,131,96,Recovered
+240,65,Female,Respiratory,3,None,Surgery,No,29.1,147,104,Complication
+241,37,Male,Neurological,1,1,2,Yes,18.8,171,116,Complication
+242,25,Male,Orthopedic,2,2,2,No,34.3,119,92,Recovered
+243,24,Male,Infectious,3,"Diabetes, BP",Medication,No,19.2,114,86,First Time
+244,84,Male,Respiratory,2,None,Medication,No,20.9,152,104,Recovered
+245,34,Male,Diabetes,3,None,Therapy,Yes,18.7,108,63,Re-admitted
+246,50,Female,Orthopedic,3,Asthma,Medication,No,27.9,161,81,First Time
+247,65,Male,Orthopedic,2,None,0,No,33.9,97,85,Recovered
+248,76,Male,Respiratory,1,1,Medication,No,29.5,92,91,First Time
+249,39,Female,Gastrointestinal,3,None,0,No,32.1,156,83,First Time
+250,47,Female,Cancer,2,2,Medication,No,18.7,175,105,First Time
+251,55,Male,Gastrointestinal,1,"Diabetes, BP",Therapy,No,27.4,170,94,Complication
+252,68,Male,Respiratory,1,"Diabetes, BP",Therapy,No,26.1,106,96,Recovered
+253,71,Male,Orthopedic,2,None,0,No,26.7,103,91,Complication
+254,25,Female,Infectious,3,0,Surgery,Yes,19.7,98,66,Complication
+255,44,Male,Diabetes,3,0,Therapy,No,29.8,151,92,Re-admitted
+256,44,Female,Infectious,2,1,Surgery,Yes,26.8,110,90,Re-admitted
+257,38,Female,Infectious,1,0,2,No,31.1,165,114,First Time
+258,47,Male,Orthopedic,1,1,0,No,26.5,126,71,First Time
+259,45,Female,Gastrointestinal,3,Asthma,Therapy,No,21.0,100,70,Re-admitted
+260,81,Other,Diabetes,1,1,1,No,29.2,109,83,Re-admitted
+261,86,Male,Heart Disease,1,0,2,No,21.3,124,67,Recovered
+262,78,Female,Neurological,1,None,Surgery,No,32.9,142,91,First Time
+263,65,Female,Orthopedic,2,Asthma,Therapy,No,28.6,136,116,First Time
+264,36,Female,Respiratory,3,0,0,No,21.1,164,97,Re-admitted
+265,21,Female,Heart Disease,1,1,Medication,Yes,34.4,141,119,Recovered
+266,52,Female,Neurological,2,2,1,No,27.1,97,81,Re-admitted
+267,81,Female,Respiratory,2,"Diabetes, BP",Surgery,No,19.7,93,93,Re-admitted
+268,66,Female,Infectious,3,0,2,Yes,28.8,116,78,Complication
+269,34,Female,Cancer,1,1,0,No,22.7,133,111,First Time
+270,61,Female,Respiratory,2,Asthma,1,Yes,31.8,129,79,Recovered
+271,47,Female,Diabetes,1,0,0,No,32.0,136,115,Complication
+272,63,Male,Diabetes,3,0,Therapy,No,34.7,133,73,First Time
+273,23,Male,Cancer,2,"Diabetes, BP",Medication,No,26.8,137,92,Re-admitted
+274,54,Male,Heart Disease,1,1,2,Yes,26.0,174,69,Recovered
+275,41,Male,Neurological,2,2,0,Yes,30.9,141,75,First Time
+276,63,Male,Respiratory,2,Asthma,Surgery,Yes,20.7,173,63,Re-admitted
+277,70,Female,Diabetes,1,1,Therapy,No,27.5,157,86,Complication
+278,77,Male,Heart Disease,3,Asthma,Therapy,No,27.5,100,87,Recovered
+279,80,Female,Cancer,1,0,2,No,20.0,166,102,First Time
+280,49,Male,Gastrointestinal,2,"Diabetes, BP",Therapy,No,25.4,162,75,Complication
+281,50,Female,Orthopedic,2,"Diabetes, BP",Surgery,No,32.6,93,118,Re-admitted
+282,84,Female,Gastrointestinal,2,None,0,No,32.6,165,111,Re-admitted
+283,35,Male,Gastrointestinal,1,2,2,No,20.1,162,92,First Time
+284,42,Female,Diabetes,3,"Diabetes, BP",Therapy,No,20.0,166,107,Re-admitted
+285,71,Male,Infectious,2,0,Therapy,No,22.8,137,78,Recovered
+286,75,Female,Infectious,2,2,Surgery,Yes,32.9,115,80,First Time
+287,84,Male,Cancer,2,1,Medication,Yes,20.6,166,81,Complication
+288,63,Female,Respiratory,2,"Diabetes, BP",Medication,No,30.4,128,68,First Time
+289,41,Male,Infectious,1,2,Therapy,Yes,20.2,147,68,First Time
+290,49,Female,Gastrointestinal,1,0,0,No,28.8,108,68,Complication
+291,64,Female,Infectious,3,None,2,No,24.4,177,86,Re-admitted
+292,40,Male,Gastrointestinal,1,Asthma,Therapy,No,31.5,172,76,Complication
+293,83,Male,Neurological,2,Asthma,1,No,22.4,166,103,Recovered
+294,44,Male,Diabetes,3,0,2,Yes,29.0,166,116,Re-admitted
+295,19,Male,Diabetes,1,0,Medication,No,22.4,147,104,First Time
+296,34,Female,Respiratory,2,Asthma,Therapy,No,30.3,117,67,Re-admitted
+297,50,Male,Infectious,2,None,Surgery,No,32.9,155,75,Re-admitted
+298,26,Male,Infectious,2,2,1,No,20.6,99,77,Recovered
+299,60,Male,Orthopedic,1,Asthma,Therapy,No,32.8,175,118,Re-admitted
+300,65,Female,Heart Disease,1,0,0,No,28.3,166,92,Re-admitted
+301,56,Male,Neurological,2,"Diabetes, BP",1,No,20.6,147,60,Re-admitted
+302,59,Male,Diabetes,3,1,Therapy,Yes,25.6,162,71,First Time
+303,43,Male,Neurological,2,None,0,No,21.2,103,65,Re-admitted
+304,67,Male,Diabetes,2,None,1,No,30.1,173,100,Complication
+305,42,Female,Neurological,1,"Diabetes, BP",0,No,31.0,104,114,Re-admitted
+306,41,Male,Cancer,2,"Diabetes, BP",0,No,20.2,122,64,Recovered
+307,30,Male,Gastrointestinal,1,0,1,No,26.9,106,118,Re-admitted
+308,77,Female,Diabetes,3,Asthma,1,No,31.9,113,75,Re-admitted
+309,24,Female,Neurological,3,2,0,No,33.9,119,77,First Time
+310,74,Male,Infectious,2,None,Medication,Yes,27.0,151,108,Complication
+311,53,Female,Heart Disease,3,None,1,No,34.2,102,77,Re-admitted
+312,62,Female,Cancer,1,"Diabetes, BP",Therapy,Yes,27.3,151,60,Complication
+313,37,Male,Cancer,2,Asthma,2,Yes,25.0,136,78,Recovered
+314,82,Female,Heart Disease,1,None,Surgery,No,32.5,105,113,First Time
+315,25,Female,Neurological,3,2,0,No,26.6,155,67,Complication
+316,33,Male,Infectious,1,"Diabetes, BP",0,No,26.3,170,62,First Time
+317,31,Male,Respiratory,2,2,Surgery,Yes,26.6,132,117,Re-admitted
+318,32,Male,Heart Disease,3,Asthma,Medication,No,32.5,97,84,Recovered
+319,83,Female,Neurological,1,None,Surgery,No,32.2,92,117,First Time
+320,49,Other,Heart Disease,1,1,1,No,25.2,101,64,Re-admitted
+321,80,Female,Heart Disease,2,None,Surgery,No,24.0,173,114,Complication
+322,68,Male,Diabetes,2,Asthma,0,No,26.6,105,99,Recovered
+323,42,Female,Neurological,1,None,Surgery,No,28.0,167,78,Recovered
+324,75,Female,Respiratory,1,None,2,No,22.4,169,77,Complication
+325,80,Male,Gastrointestinal,1,0,Therapy,Yes,31.6,148,109,Complication
+326,79,Male,Diabetes,3,None,1,No,26.5,138,112,Recovered
+327,39,Female,Heart Disease,2,None,Surgery,No,24.0,152,90,First Time
+328,75,Male,Gastrointestinal,1,2,0,No,20.3,151,92,Recovered
+329,75,Female,Orthopedic,1,1,Therapy,Yes,22.4,138,106,Complication
+330,66,Male,Gastrointestinal,1,2,1,No,34.2,140,77,First Time
+331,69,Male,Heart Disease,1,2,0,No,23.5,122,116,Re-admitted
+332,59,Male,Heart Disease,2,"Diabetes, BP",Medication,No,21.3,119,98,Recovered
+333,87,Male,Infectious,1,0,2,Yes,26.1,148,75,Complication
+334,32,Female,Neurological,1,2,Medication,No,23.6,165,75,Re-admitted
+335,71,Male,Neurological,2,Asthma,2,No,19.1,104,106,Recovered
+336,77,Female,Diabetes,1,Asthma,Surgery,No,23.8,171,97,Recovered
+337,25,Female,Respiratory,2,None,1,Yes,27.5,112,100,First Time
+338,70,Female,Diabetes,2,"Diabetes, BP",Surgery,No,27.6,167,66,Complication
+339,77,Male,Cancer,2,0,2,No,24.4,134,73,Re-admitted
+340,22,Female,Heart Disease,2,0,2,Yes,25.9,151,102,Recovered
+341,85,Female,Gastrointestinal,2,None,2,Yes,34.4,168,112,First Time
+342,23,Male,Orthopedic,3,Asthma,Therapy,No,24.7,160,107,Re-admitted
+343,64,Male,Heart Disease,2,1,0,Yes,22.8,104,84,Re-admitted
+344,72,Female,Heart Disease,2,"Diabetes, BP",1,Yes,22.5,135,91,Recovered
+345,57,Female,Diabetes,3,None,Surgery,No,26.1,153,97,Re-admitted
+346,69,Male,Orthopedic,2,"Diabetes, BP",Surgery,No,31.0,135,81,Recovered
+347,33,Female,Orthopedic,1,Asthma,Medication,Yes,21.9,145,118,First Time
+348,30,Female,Orthopedic,1,Asthma,2,No,30.2,133,75,First Time
+349,47,Female,Diabetes,1,1,2,Yes,18.8,164,111,Re-admitted
+350,36,Female,Heart Disease,3,1,2,Yes,25.4,118,88,Recovered
+351,34,Female,Diabetes,2,0,Surgery,Yes,31.3,151,75,Complication
+352,80,Male,Neurological,3,"Diabetes, BP",Medication,No,24.1,178,71,First Time
+353,36,Male,Neurological,2,"Diabetes, BP",0,Yes,27.8,141,76,Recovered
+354,75,Male,Diabetes,2,Asthma,Therapy,Yes,21.9,143,96,Recovered
+355,72,Female,Orthopedic,1,0,1,No,30.7,177,86,Recovered
+356,79,Female,Infectious,2,None,0,No,19.4,146,84,Re-admitted
+357,40,Male,Heart Disease,2,"Diabetes, BP",Surgery,Yes,32.6,172,72,Complication
+358,26,Female,Diabetes,3,0,Therapy,No,21.8,155,67,Re-admitted
+359,29,Female,Diabetes,1,0,Therapy,Yes,32.9,111,115,First Time
+360,18,Female,Diabetes,2,Asthma,Therapy,No,24.3,109,64,Re-admitted
+361,75,Male,Infectious,2,0,2,No,30.4,122,71,Recovered
+362,18,Female,Infectious,2,1,1,No,23.8,161,100,Re-admitted
+363,51,Male,Cancer,2,1,Surgery,No,33.4,114,62,Recovered
+364,65,Male,Neurological,2,2,Surgery,No,20.6,135,94,Complication
+365,18,Male,Gastrointestinal,1,Asthma,Therapy,Yes,21.4,162,92,Re-admitted
+366,33,Male,Orthopedic,2,None,Surgery,No,26.6,146,116,Re-admitted
+367,78,Male,Respiratory,2,2,1,Yes,19.9,176,81,Re-admitted
+368,81,Female,Infectious,3,1,1,No,21.7,94,109,Recovered
+369,80,Male,Gastrointestinal,3,2,Medication,No,34.1,144,115,Recovered
+370,86,Female,Infectious,1,Asthma,Medication,No,34.6,150,103,Re-admitted
+371,39,Male,Orthopedic,1,Asthma,0,No,24.7,178,68,Re-admitted
+372,84,Female,Respiratory,3,0,1,No,33.7,97,100,Complication
+373,43,Female,Cancer,2,"Diabetes, BP",1,No,27.5,105,77,Complication
+374,33,Male,Diabetes,3,0,1,Yes,23.0,137,109,First Time
+375,68,Male,Cancer,1,Asthma,Medication,No,30.1,150,88,Complication
+376,74,Male,Infectious,2,1,Therapy,No,29.4,104,98,Complication
+377,46,Female,Cancer,3,None,Therapy,No,34.8,154,86,Complication
+378,86,Female,Gastrointestinal,3,1,Surgery,No,22.9,111,95,Recovered
+379,64,Male,Heart Disease,1,0,Therapy,Yes,29.6,92,104,Complication
+380,79,Female,Infectious,2,None,2,No,19.4,143,76,Complication
+381,86,Male,Infectious,2,Asthma,Medication,No,20.4,103,115,Re-admitted
+382,33,Male,Gastrointestinal,1,1,1,Yes,18.6,125,93,Recovered
+383,65,Female,Neurological,2,Asthma,Therapy,No,35.0,171,105,First Time
+384,56,Male,Respiratory,2,None,Medication,No,31.7,171,62,First Time
+385,50,Female,Diabetes,3,None,Therapy,No,31.5,156,64,Complication
+386,40,Male,Gastrointestinal,2,1,0,No,26.9,99,73,First Time
+387,27,Other,Respiratory,1,Asthma,1,Yes,23.5,138,62,First Time
+388,86,Male,Orthopedic,1,2,0,No,21.0,154,82,First Time
+389,51,Male,Respiratory,2,Asthma,1,No,23.2,146,98,Complication
+390,69,Female,Orthopedic,1,None,Medication,No,24.7,116,89,First Time
+391,27,Male,Gastrointestinal,2,Asthma,Surgery,No,31.0,164,109,Complication
+392,36,Female,Infectious,1,0,Therapy,Yes,27.4,94,104,Re-admitted
+393,75,Female,Infectious,3,2,Therapy,Yes,19.8,160,82,Re-admitted
+394,18,Female,Neurological,3,"Diabetes, BP",2,No,18.8,172,86,First Time
+395,86,Female,Gastrointestinal,2,0,0,No,20.2,146,113,Re-admitted
+396,21,Female,Orthopedic,3,"Diabetes, BP",Therapy,No,25.3,104,69,Complication
+397,33,Female,Respiratory,2,1,Medication,Yes,33.9,165,84,Re-admitted
+398,41,Female,Respiratory,2,"Diabetes, BP",Surgery,No,29.0,119,72,First Time
+399,19,Female,Orthopedic,1,Asthma,Medication,No,31.7,109,75,Complication
+400,49,Male,Cancer,2,"Diabetes, BP",0,No,26.2,126,100,Recovered
+401,41,Male,Neurological,2,None,2,Yes,24.5,92,93,Complication
+402,29,Female,Heart Disease,3,0,Therapy,No,20.3,162,114,Re-admitted
+403,67,Male,Infectious,2,0,Medication,No,33.0,130,96,Recovered
+404,52,Female,Diabetes,3,"Diabetes, BP",1,No,31.4,128,81,Complication
+405,50,Male,Respiratory,2,0,Surgery,No,21.3,115,76,Recovered
+406,50,Male,Diabetes,1,None,Medication,No,27.0,91,82,Recovered
+407,78,Female,Heart Disease,3,0,Surgery,No,26.5,112,113,Recovered
+408,68,Female,Gastrointestinal,2,"Diabetes, BP",Therapy,No,28.8,112,95,Complication
+409,60,Male,Diabetes,1,2,1,Yes,34.1,174,108,Re-admitted
+410,29,Female,Heart Disease,2,2,2,No,28.1,105,68,Complication
+411,84,Female,Infectious,1,1,2,Yes,27.4,98,111,Re-admitted
+412,82,Male,Orthopedic,2,0,1,No,19.3,102,61,Complication
+413,50,Female,Cancer,2,"Diabetes, BP",Surgery,No,19.5,117,91,Complication
+414,57,Male,Infectious,2,0,Therapy,No,21.6,116,115,Complication
+415,60,Male,Respiratory,3,Asthma,Medication,No,19.0,140,109,Re-admitted
+416,61,Female,Heart Disease,2,None,1,Yes,30.8,153,112,Complication
+417,46,Male,Diabetes,1,0,0,No,30.4,141,118,Recovered
+418,30,Female,Respiratory,2,0,Surgery,No,20.7,170,81,Complication
+419,29,Female,Cancer,3,2,2,Yes,32.3,127,102,Recovered
+420,63,Male,Orthopedic,1,None,1,No,21.1,154,72,First Time
+421,19,Female,Gastrointestinal,1,"Diabetes, BP",2,Yes,23.5,107,67,First Time
+422,52,Female,Respiratory,1,0,Surgery,No,22.6,152,118,Re-admitted
+423,25,Male,Gastrointestinal,1,2,2,No,24.6,140,60,Re-admitted
+424,43,Female,Heart Disease,3,1,1,Yes,22.7,98,76,First Time
+425,51,Female,Cancer,2,None,Surgery,No,26.6,102,71,Complication
+426,24,Female,Diabetes,1,2,0,Yes,25.2,129,63,Complication
+427,85,Female,Cancer,2,2,1,Yes,34.8,144,112,Complication
+428,75,Male,Cancer,1,2,Medication,Yes,19.4,168,72,First Time
+429,46,Female,Neurological,3,0,Therapy,No,20.8,132,90,Recovered
+430,53,Female,Cancer,3,0,1,No,19.4,133,100,Re-admitted
+431,38,Female,Cancer,1,1,Surgery,No,28.8,157,118,Recovered
+432,53,Female,Infectious,3,Asthma,Therapy,Yes,19.4,122,66,First Time
+433,27,Female,Respiratory,2,Asthma,1,Yes,32.3,113,82,Recovered
+434,41,Female,Diabetes,1,Asthma,0,No,26.9,125,83,Complication
+435,81,Female,Infectious,1,None,0,No,27.2,99,64,Complication
+436,66,Female,Infectious,2,None,Medication,No,27.8,109,64,Recovered
+437,53,Female,Respiratory,2,1,2,Yes,21.3,164,76,First Time
+438,41,Female,Respiratory,3,None,Therapy,No,21.8,101,89,Recovered
+439,40,Female,Heart Disease,2,Asthma,Surgery,No,23.8,151,68,Complication
+440,79,Male,Respiratory,3,Asthma,Surgery,No,28.3,107,65,Complication
+441,54,Male,Neurological,2,2,2,No,22.0,152,84,First Time
+442,29,Male,Neurological,3,None,0,Yes,20.4,173,78,Recovered
+443,72,Female,Infectious,2,0,0,No,34.5,114,75,Complication
+444,30,Female,Gastrointestinal,1,0,1,No,18.9,101,80,Complication
+445,40,Female,Heart Disease,2,2,Medication,No,31.7,110,61,Recovered
+446,47,Male,Gastrointestinal,3,2,Therapy,No,31.5,114,69,Recovered
+447,34,Female,Gastrointestinal,1,2,Medication,No,23.4,100,75,Re-admitted
+448,79,Male,Infectious,3,0,Medication,No,20.7,153,96,First Time
+449,30,Male,Orthopedic,1,Asthma,1,Yes,20.9,162,74,First Time
+450,76,Female,Infectious,2,2,Medication,No,30.0,139,72,Recovered
+451,36,Female,Diabetes,3,1,2,No,29.1,151,72,First Time
+452,66,Male,Diabetes,1,2,1,No,31.4,178,91,Complication
+453,29,Male,Respiratory,1,"Diabetes, BP",2,No,34.0,138,104,Recovered
+454,78,Male,Respiratory,2,2,1,Yes,29.9,103,106,Recovered
+455,36,Male,Orthopedic,3,0,Medication,No,21.1,90,105,Recovered
+456,26,Female,Respiratory,1,None,2,No,22.5,170,67,Re-admitted
+457,88,Male,Diabetes,3,2,2,Yes,32.4,114,102,First Time
+458,45,Female,Gastrointestinal,1,None,2,No,22.0,148,77,Re-admitted
+459,69,Female,Infectious,3,"Diabetes, BP",1,Yes,19.7,161,115,Complication
+460,33,Male,Cancer,3,1,Surgery,No,30.1,158,95,First Time
+461,86,Male,Neurological,2,None,Medication,No,25.1,94,85,Re-admitted
+462,29,Male,Cancer,2,Asthma,2,No,33.7,108,69,Recovered
+463,42,Male,Cancer,2,2,Therapy,No,29.2,112,90,Re-admitted
+464,69,Male,Diabetes,2,"Diabetes, BP",Surgery,No,20.0,98,92,Recovered
+465,70,Female,Cancer,1,"Diabetes, BP",Therapy,No,34.1,139,88,Re-admitted
+466,40,Male,Infectious,1,None,Medication,No,22.8,105,64,Re-admitted
+467,33,Female,Orthopedic,1,1,Medication,No,24.1,122,72,Re-admitted
+468,74,Male,Heart Disease,2,0,2,No,25.1,91,60,Recovered
+469,56,Female,Respiratory,1,2,2,Yes,19.3,103,82,Re-admitted
+470,70,Female,Heart Disease,2,"Diabetes, BP",1,No,26.7,90,99,First Time
+471,59,Female,Gastrointestinal,3,1,Surgery,Yes,20.5,179,62,First Time
+472,75,Female,Infectious,1,Asthma,Surgery,No,25.1,147,62,First Time
+473,56,Female,Infectious,2,"Diabetes, BP",2,No,24.3,178,66,Recovered
+474,31,Female,Neurological,2,1,Medication,No,31.3,105,95,Recovered
+475,22,Female,Infectious,3,0,2,No,31.8,168,94,First Time
+476,52,Female,Respiratory,3,0,Medication,No,21.0,179,74,First Time
+477,35,Male,Infectious,3,"Diabetes, BP",Medication,No,24.5,136,99,First Time
+478,26,Male,Cancer,3,"Diabetes, BP",2,Yes,24.7,133,62,Complication
+479,75,Female,Neurological,1,None,0,Yes,21.0,169,88,First Time
+480,34,Female,Respiratory,3,2,Surgery,Yes,31.7,103,89,Re-admitted
+481,24,Female,Orthopedic,2,1,Therapy,No,30.2,113,98,Complication
+482,63,Female,Orthopedic,1,"Diabetes, BP",Medication,Yes,21.6,144,77,Complication
+483,30,Other,Orthopedic,3,2,Medication,No,24.6,104,70,Recovered
+484,57,Male,Orthopedic,1,None,0,No,20.2,172,102,Re-admitted
+485,59,Male,Cancer,2,2,Therapy,Yes,28.9,161,108,Recovered
+486,26,Male,Infectious,1,"Diabetes, BP",1,No,20.5,123,119,Recovered
+487,67,Male,Heart Disease,2,0,0,No,34.8,91,97,Re-admitted
+488,44,Female,Respiratory,2,1,Therapy,Yes,31.4,116,99,Recovered
+489,83,Male,Cancer,2,1,0,No,24.9,163,60,Re-admitted
+490,22,Female,Orthopedic,2,0,Medication,No,28.0,176,88,Re-admitted
+491,46,Male,Gastrointestinal,1,"Diabetes, BP",Surgery,No,33.5,161,69,Recovered
+492,54,Female,Infectious,3,1,0,No,27.6,112,87,First Time
+493,55,Female,Heart Disease,1,"Diabetes, BP",1,No,21.4,157,116,Recovered
+494,25,Male,Gastrointestinal,2,None,2,No,24.7,103,90,Complication
+495,82,Female,Neurological,3,"Diabetes, BP",Therapy,Yes,32.4,152,78,Recovered
+496,34,Male,Gastrointestinal,3,2,0,No,29.1,154,62,Re-admitted
+497,88,Male,Neurological,2,0,0,No,29.2,157,95,Complication
+498,62,Male,Neurological,2,"Diabetes, BP",1,Yes,32.8,152,102,Re-admitted
+499,21,Male,Orthopedic,3,None,Surgery,No,33.3,179,74,First Time
+500,53,Male,Neurological,3,Asthma,0,No,33.7,170,92,First Time
+501,87,Female,Diabetes,2,0,0,No,20.1,176,100,Complication
+502,48,Female,Respiratory,1,1,Surgery,No,27.5,153,102,First Time
+503,36,Female,Respiratory,1,2,1,No,30.7,121,110,First Time
+504,78,Male,Orthopedic,1,1,Therapy,No,31.0,168,104,Recovered
+505,71,Female,Diabetes,2,None,Therapy,No,28.5,102,85,Recovered
+506,56,Male,Gastrointestinal,1,None,0,No,21.3,155,75,First Time
+507,36,Male,Cancer,2,1,Surgery,No,31.7,108,95,First Time
+508,56,Female,Gastrointestinal,1,0,0,No,30.4,113,92,Recovered
+509,84,Male,Infectious,1,1,2,No,19.9,177,79,First Time
+510,62,Female,Cancer,3,"Diabetes, BP",Therapy,No,26.2,100,72,First Time
+511,30,Female,Neurological,2,1,Medication,No,21.4,148,92,Re-admitted
+512,75,Male,Heart Disease,1,2,2,No,24.1,175,64,First Time
+513,37,Male,Cancer,3,2,0,Yes,18.8,104,96,Complication
+514,89,Male,Heart Disease,1,Asthma,1,No,25.1,99,73,Re-admitted
+515,78,Female,Respiratory,2,2,Therapy,No,27.6,130,86,Complication
+516,56,Male,Heart Disease,2,1,Medication,Yes,28.7,116,82,First Time
+517,18,Male,Respiratory,1,2,2,No,29.4,149,73,Recovered
+518,20,Male,Diabetes,3,0,Therapy,No,32.3,162,99,Re-admitted
+519,79,Female,Diabetes,2,2,Surgery,No,22.1,141,63,Recovered
+520,80,Male,Orthopedic,2,"Diabetes, BP",1,Yes,20.5,117,98,Re-admitted
+521,42,Male,Orthopedic,1,0,2,No,32.6,154,111,Recovered
+522,73,Female,Neurological,1,Asthma,Surgery,No,21.1,106,78,Re-admitted
+523,50,Female,Cancer,3,"Diabetes, BP",0,Yes,34.6,133,106,Re-admitted
+524,55,Male,Neurological,1,1,Surgery,No,32.4,99,113,Complication
+525,23,Male,Respiratory,2,1,2,No,26.8,152,63,Recovered
+526,75,Male,Neurological,2,1,2,Yes,34.7,171,89,Complication
+527,61,Female,Heart Disease,2,"Diabetes, BP",0,No,20.1,136,78,Complication
+528,62,Male,Respiratory,1,"Diabetes, BP",Surgery,No,23.5,127,90,Recovered
+529,49,Female,Orthopedic,1,"Diabetes, BP",Surgery,No,29.0,159,90,Re-admitted
+530,62,Female,Diabetes,2,0,0,Yes,24.3,165,68,Complication
+531,78,Female,Orthopedic,1,None,Surgery,Yes,33.8,142,112,Recovered
+532,64,Male,Cancer,1,0,Therapy,Yes,19.6,167,72,Re-admitted
+533,38,Female,Respiratory,1,1,0,No,27.6,133,73,Complication
+534,53,Female,Respiratory,2,None,1,No,28.2,163,114,Complication
+535,36,Female,Heart Disease,3,2,2,Yes,29.3,143,119,Complication
+536,37,Male,Cancer,1,1,1,Yes,22.7,109,105,Re-admitted
+537,74,Other,Diabetes,1,Asthma,Therapy,No,24.5,168,113,Complication
+538,35,Male,Gastrointestinal,1,0,Therapy,No,32.4,120,69,Re-admitted
+539,64,Male,Respiratory,2,"Diabetes, BP",Medication,No,21.7,96,107,First Time
+540,66,Male,Respiratory,2,0,Medication,No,32.1,147,90,Complication
+541,31,Female,Heart Disease,2,"Diabetes, BP",Medication,No,27.8,99,96,First Time
+542,32,Male,Neurological,2,None,0,Yes,31.1,99,82,Recovered
+543,48,Male,Infectious,2,Asthma,Surgery,No,30.3,128,86,Complication
+544,18,Male,Diabetes,3,None,Therapy,No,21.9,117,65,Recovered
+545,71,Male,Orthopedic,3,Asthma,1,No,27.9,119,85,Recovered
+546,20,Female,Cancer,1,0,1,No,32.8,126,61,Recovered
+547,33,Female,Respiratory,1,"Diabetes, BP",1,Yes,25.6,156,104,First Time
+548,74,Male,Respiratory,1,None,1,Yes,34.4,132,72,Re-admitted
+549,29,Male,Orthopedic,1,Asthma,Medication,No,26.0,168,110,First Time
+550,33,Female,Diabetes,3,1,1,Yes,20.9,174,109,First Time
+551,89,Male,Infectious,2,1,Surgery,Yes,24.9,141,119,Recovered
+552,41,Male,Neurological,1,None,Medication,Yes,34.2,145,78,Complication
+553,45,Female,Respiratory,2,"Diabetes, BP",1,Yes,23.8,165,60,Re-admitted
+554,25,Female,Infectious,2,None,0,No,32.8,157,99,Recovered
+555,53,Male,Diabetes,1,0,2,Yes,33.0,98,91,Re-admitted
+556,25,Female,Orthopedic,1,Asthma,2,No,24.3,112,81,First Time
+557,75,Male,Heart Disease,2,0,2,No,19.9,152,107,Re-admitted
+558,77,Female,Neurological,2,1,Medication,No,30.5,150,88,Re-admitted
+559,67,Male,Cancer,1,Asthma,1,Yes,23.6,129,61,Complication
+560,45,Male,Respiratory,1,None,Therapy,No,31.4,133,99,Recovered
+561,58,Male,Diabetes,2,0,Therapy,Yes,25.8,175,97,Re-admitted
+562,81,Female,Heart Disease,1,2,Therapy,No,26.5,113,107,Re-admitted
+563,44,Female,Cancer,2,"Diabetes, BP",Medication,No,31.3,140,114,First Time
+564,80,Male,Gastrointestinal,2,"Diabetes, BP",Surgery,No,24.8,147,70,First Time
+565,34,Male,Diabetes,1,2,0,No,25.8,179,76,Re-admitted
+566,50,Female,Diabetes,3,1,0,No,24.7,122,114,Recovered
+567,46,Male,Cancer,2,Asthma,2,No,24.6,105,110,Re-admitted
+568,30,Male,Heart Disease,1,"Diabetes, BP",2,No,27.2,111,102,Re-admitted
+569,63,Female,Gastrointestinal,2,2,Therapy,No,31.8,146,119,Complication
+570,52,Male,Infectious,2,None,Therapy,No,24.5,151,67,Recovered
+571,23,Female,Infectious,2,2,2,No,27.2,171,81,Complication
+572,86,Female,Orthopedic,1,1,1,No,29.6,160,63,Recovered
+573,64,Male,Heart Disease,3,1,Surgery,No,22.9,179,70,Recovered
+574,42,Male,Neurological,2,0,Surgery,No,23.1,161,67,Recovered
+575,83,Male,Respiratory,1,"Diabetes, BP",Surgery,No,33.9,159,68,Complication
+576,27,Female,Cancer,1,0,Surgery,Yes,30.4,119,85,Complication
+577,73,Female,Orthopedic,1,2,2,No,28.0,112,61,Complication
+578,47,Female,Gastrointestinal,3,Asthma,0,Yes,29.2,121,75,First Time
+579,22,Male,Cancer,1,Asthma,2,No,19.0,175,90,Complication
+580,50,Female,Cancer,1,1,Surgery,Yes,28.7,146,65,First Time
+581,82,Female,Heart Disease,3,Asthma,2,Yes,26.9,98,112,First Time
+582,35,Female,Respiratory,1,Asthma,Surgery,No,27.5,120,80,First Time
+583,66,Female,Neurological,1,Asthma,Medication,No,24.4,160,85,Re-admitted
+584,28,Female,Infectious,1,2,Therapy,Yes,19.8,98,118,Re-admitted
+585,43,Female,Diabetes,1,Asthma,0,No,21.7,102,78,Re-admitted
+586,80,Female,Diabetes,1,None,Medication,Yes,34.2,147,87,First Time
+587,76,Male,Cancer,2,Asthma,1,Yes,25.2,92,67,First Time
+588,44,Male,Infectious,1,Asthma,2,No,26.2,124,73,Recovered
+589,66,Female,Infectious,1,0,1,No,19.4,110,83,First Time
+590,50,Male,Respiratory,2,2,2,Yes,19.1,153,107,Re-admitted
+591,18,Female,Gastrointestinal,2,1,Therapy,No,30.3,141,103,First Time
+592,38,Other,Gastrointestinal,2,0,Medication,Yes,27.4,123,96,First Time
+593,72,Female,Orthopedic,2,"Diabetes, BP",Therapy,No,26.9,124,115,Recovered
+594,23,Male,Heart Disease,1,2,Surgery,No,22.5,104,85,First Time
+595,86,Male,Respiratory,2,None,Therapy,No,30.8,95,90,Complication
+596,22,Male,Respiratory,2,2,Therapy,No,21.3,174,115,Recovered
+597,20,Female,Heart Disease,1,"Diabetes, BP",Surgery,No,21.6,121,110,First Time
+598,70,Female,Infectious,3,"Diabetes, BP",2,No,26.1,141,91,First Time
+599,40,Female,Gastrointestinal,1,"Diabetes, BP",Surgery,Yes,23.2,172,109,Recovered
+600,70,Male,Gastrointestinal,2,1,Medication,No,22.6,117,100,First Time
+601,54,Female,Infectious,1,Asthma,Therapy,No,29.1,174,61,Re-admitted
+602,34,Female,Gastrointestinal,2,2,Surgery,Yes,29.2,153,84,Complication
+603,18,Male,Cancer,2,Asthma,Therapy,Yes,32.1,168,111,Complication
+604,68,Female,Respiratory,3,Asthma,Medication,No,25.4,167,103,Re-admitted
+605,62,Male,Diabetes,1,None,1,No,19.7,108,61,First Time
+606,21,Male,Heart Disease,2,"Diabetes, BP",Medication,Yes,23.0,104,101,First Time
+607,79,Female,Gastrointestinal,2,1,0,Yes,34.7,95,60,Complication
+608,82,Male,Orthopedic,2,None,0,No,28.3,162,95,First Time
+609,49,Female,Gastrointestinal,2,0,0,No,30.2,173,116,Complication
+610,51,Female,Gastrointestinal,2,1,Therapy,No,18.6,127,71,Complication
+611,89,Female,Neurological,2,Asthma,2,No,27.1,115,68,Re-admitted
+612,56,Male,Cancer,1,1,2,Yes,19.1,171,95,Complication
+613,43,Female,Heart Disease,2,"Diabetes, BP",2,No,27.9,140,100,First Time
+614,51,Female,Neurological,1,0,Therapy,No,33.7,162,87,First Time
+615,71,Female,Neurological,3,"Diabetes, BP",Medication,No,34.5,142,97,Recovered
+616,20,Male,Orthopedic,2,0,2,Yes,27.4,145,92,First Time
+617,67,Male,Respiratory,3,None,1,No,26.1,148,101,Recovered
+618,29,Female,Orthopedic,1,Asthma,0,No,34.1,159,105,Complication
+619,82,Male,Respiratory,3,0,Medication,No,29.6,167,81,First Time
+620,71,Female,Respiratory,3,0,0,No,19.6,147,84,Re-admitted
+621,22,Female,Heart Disease,2,0,2,Yes,26.2,177,77,Re-admitted
+622,74,Female,Gastrointestinal,2,1,Medication,No,22.5,102,65,Re-admitted
+623,34,Female,Heart Disease,1,None,Surgery,No,26.3,132,77,Complication
+624,64,Female,Cancer,3,1,1,No,26.0,165,111,Complication
+625,40,Female,Respiratory,2,Asthma,2,No,28.1,140,75,Recovered
+626,31,Female,Neurological,1,0,2,No,24.4,108,74,Re-admitted
+627,83,Female,Gastrointestinal,1,None,1,No,21.2,110,107,Recovered
+628,68,Male,Diabetes,3,None,1,No,26.8,172,67,Recovered
+629,55,Male,Cancer,3,2,Surgery,Yes,32.2,113,72,First Time
+630,81,Female,Heart Disease,3,Asthma,2,No,29.5,115,114,First Time
+631,55,Male,Orthopedic,2,None,Therapy,No,24.1,134,102,Re-admitted
+632,67,Male,Cancer,1,0,2,No,33.9,117,119,Complication
+633,47,Male,Cancer,1,0,0,No,33.6,171,116,First Time
+634,68,Female,Gastrointestinal,1,None,Medication,No,22.0,118,66,Complication
+635,80,Female,Cancer,1,1,Medication,No,19.2,106,76,Recovered
+636,69,Female,Cancer,1,Asthma,0,No,30.7,157,109,Recovered
+637,55,Female,Diabetes,1,0,Medication,No,32.2,133,91,Recovered
+638,47,Female,Infectious,2,None,1,No,34.5,150,81,Recovered
+639,68,Male,Orthopedic,3,0,Medication,Yes,33.2,157,114,Re-admitted
+640,22,Female,Orthopedic,2,None,Medication,Yes,28.4,163,110,Recovered
+641,46,Male,Orthopedic,3,Asthma,0,No,27.2,114,116,First Time
+642,21,Female,Respiratory,2,None,Surgery,Yes,19.0,156,72,Recovered
+643,27,Female,Neurological,1,2,Medication,Yes,22.6,91,106,Complication
+644,73,Male,Infectious,1,None,Therapy,No,26.1,178,82,First Time
+645,34,Male,Orthopedic,1,None,Medication,No,28.9,138,113,Complication
+646,34,Male,Cancer,1,Asthma,Surgery,No,27.7,159,88,Complication
+647,86,Male,Cancer,2,None,0,No,30.8,115,81,Re-admitted
+648,51,Male,Orthopedic,1,Asthma,Surgery,No,23.1,161,60,Re-admitted
+649,23,Female,Gastrointestinal,1,2,0,No,27.8,116,88,Complication
+650,70,Female,Orthopedic,1,Asthma,1,Yes,20.0,178,107,Complication
+651,83,Female,Cancer,3,0,0,No,25.3,107,64,Recovered
+652,60,Female,Respiratory,2,Asthma,1,No,30.9,143,117,First Time
+653,40,Female,Heart Disease,2,2,1,No,29.9,90,94,Recovered
+654,72,Female,Heart Disease,1,"Diabetes, BP",0,No,34.8,150,114,Re-admitted
+655,33,Male,Infectious,2,None,Therapy,No,23.1,92,69,Re-admitted
+656,25,Female,Infectious,2,Asthma,2,Yes,26.7,157,78,Recovered
+657,21,Male,Orthopedic,2,None,0,No,23.9,130,96,First Time
+658,21,Female,Diabetes,3,1,Medication,No,25.8,126,66,Complication
+659,73,Female,Orthopedic,1,0,Therapy,No,32.6,140,105,Recovered
+660,42,Female,Gastrointestinal,3,0,Therapy,Yes,29.8,104,94,Re-admitted
+661,84,Male,Orthopedic,3,1,Medication,No,33.1,97,104,First Time
+662,84,Female,Infectious,1,1,2,No,21.9,127,72,Re-admitted
+663,44,Female,Heart Disease,2,Asthma,Therapy,Yes,32.9,172,69,First Time
+664,49,Male,Cancer,3,1,1,No,19.5,145,61,First Time
+665,67,Male,Orthopedic,1,"Diabetes, BP",2,No,33.2,136,65,First Time
+666,78,Female,Cancer,2,None,Medication,No,23.9,179,67,Recovered
+667,68,Male,Cancer,3,None,2,No,23.7,99,95,Recovered
+668,36,Female,Diabetes,2,2,0,No,26.9,167,84,Recovered
+669,38,Male,Cancer,1,1,2,No,34.0,138,103,First Time
+670,22,Male,Heart Disease,2,1,1,No,19.3,130,119,First Time
+671,59,Female,Respiratory,1,"Diabetes, BP",0,Yes,24.3,172,106,Re-admitted
+672,78,Male,Respiratory,2,0,Surgery,No,32.6,119,99,Complication
+673,39,Female,Neurological,1,0,Medication,Yes,25.0,94,66,Recovered
+674,38,Male,Gastrointestinal,2,None,Medication,Yes,21.8,160,105,First Time
+675,87,Male,Orthopedic,2,None,2,No,25.5,172,82,Re-admitted
+676,18,Female,Gastrointestinal,2,Asthma,Therapy,No,24.9,120,78,Re-admitted
+677,22,Female,Heart Disease,2,"Diabetes, BP",0,No,33.6,141,105,Re-admitted
+678,29,Female,Cancer,2,2,Surgery,No,31.1,177,81,Recovered
+679,63,Female,Respiratory,2,2,0,No,26.8,112,72,Recovered
+680,51,Female,Gastrointestinal,1,"Diabetes, BP",Medication,Yes,34.8,137,80,Complication
+681,66,Male,Heart Disease,2,2,0,No,26.2,129,60,Re-admitted
+682,62,Male,Respiratory,1,0,Surgery,No,19.5,95,118,Recovered
+683,44,Female,Cancer,3,2,Therapy,No,22.8,127,78,Re-admitted
+684,43,Female,Gastrointestinal,1,2,2,No,25.7,130,119,First Time
+685,64,Female,Respiratory,2,"Diabetes, BP",1,No,21.1,116,92,Re-admitted
+686,73,Male,Orthopedic,2,"Diabetes, BP",0,No,34.1,164,63,Complication
+687,80,Male,Infectious,2,2,1,Yes,31.2,158,101,Recovered
+688,65,Female,Orthopedic,1,1,Medication,No,22.9,146,62,First Time
+689,78,Female,Neurological,2,"Diabetes, BP",2,No,28.2,106,86,Recovered
+690,43,Female,Neurological,2,Asthma,2,No,30.4,160,111,First Time
+691,53,Female,Respiratory,2,Asthma,0,Yes,34.0,136,100,Re-admitted
+692,18,Female,Infectious,1,0,Therapy,No,33.0,168,94,Re-admitted
+693,25,Male,Heart Disease,2,2,2,Yes,27.0,102,87,Complication
+694,69,Male,Orthopedic,2,1,0,No,31.3,100,65,Complication
+695,64,Male,Heart Disease,2,0,0,No,27.8,179,65,First Time
+696,73,Male,Infectious,2,2,1,Yes,27.6,175,114,Complication
+697,31,Female,Heart Disease,2,"Diabetes, BP",2,No,20.4,113,116,Complication
+698,45,Male,Infectious,1,Asthma,0,Yes,20.6,162,103,Complication
+699,19,Female,Respiratory,1,None,1,No,27.2,93,82,Complication
+700,43,Male,Heart Disease,1,1,Surgery,No,22.9,135,92,Re-admitted
+701,31,Male,Orthopedic,1,None,1,Yes,18.8,107,75,Complication
+702,76,Male,Cancer,2,Asthma,1,Yes,30.4,132,83,Re-admitted
+703,73,Male,Neurological,2,None,0,No,19.0,169,64,Re-admitted
+704,24,Female,Cancer,1,"Diabetes, BP",Medication,Yes,28.3,122,100,Recovered
+705,20,Male,Heart Disease,3,2,Medication,Yes,27.4,99,101,Re-admitted
+706,40,Female,Cancer,1,"Diabetes, BP",Therapy,No,34.5,162,72,Re-admitted
+707,35,Male,Orthopedic,2,None,Medication,No,26.5,148,106,Complication
+708,55,Male,Orthopedic,2,"Diabetes, BP",1,No,19.5,120,71,Re-admitted
+709,32,Male,Heart Disease,1,Asthma,Therapy,Yes,27.6,117,64,First Time
+710,81,Female,Respiratory,1,1,0,Yes,32.4,149,96,Complication
+711,45,Female,Cancer,2,"Diabetes, BP",2,Yes,34.9,92,90,Complication
+712,56,Male,Respiratory,1,Asthma,1,Yes,25.6,144,87,Complication
+713,74,Male,Respiratory,3,1,1,No,23.8,103,87,Recovered
+714,34,Female,Infectious,2,2,Therapy,No,33.5,147,89,Complication
+715,61,Male,Diabetes,3,None,0,Yes,21.7,178,77,Re-admitted
+716,42,Male,Heart Disease,1,2,Surgery,No,28.7,104,103,First Time
+717,34,Female,Neurological,2,0,1,No,25.2,91,86,Complication
+718,30,Female,Orthopedic,2,Asthma,Surgery,No,19.2,113,94,Complication
+719,42,Male,Orthopedic,2,1,Surgery,No,24.2,167,85,First Time
+720,85,Female,Heart Disease,1,"Diabetes, BP",Medication,No,22.9,153,116,Complication
+721,27,Female,Infectious,2,2,0,Yes,29.8,160,98,Recovered
+722,84,Male,Gastrointestinal,2,1,Surgery,Yes,34.2,113,108,Re-admitted
+723,35,Female,Gastrointestinal,2,Asthma,0,No,22.9,116,110,First Time
+724,51,Female,Gastrointestinal,1,0,Medication,Yes,31.9,126,119,First Time
+725,25,Male,Infectious,3,2,0,No,19.4,128,77,Recovered
+726,57,Male,Neurological,1,None,1,No,27.4,152,92,Re-admitted
+727,59,Male,Orthopedic,3,1,Surgery,No,19.7,168,84,Recovered
+728,58,Female,Heart Disease,3,None,0,No,33.9,115,115,Re-admitted
+729,23,Male,Infectious,3,1,2,No,31.1,154,90,Recovered
+730,69,Female,Orthopedic,2,1,0,No,29.4,93,96,Complication
+731,43,Female,Respiratory,2,Asthma,Surgery,No,32.1,118,118,Recovered
+732,81,Male,Cancer,3,Asthma,Medication,Yes,29.2,90,119,First Time
+733,76,Female,Cancer,1,Asthma,Medication,No,34.5,139,61,First Time
+734,73,Male,Infectious,2,"Diabetes, BP",Surgery,Yes,30.3,175,92,First Time
+735,76,Female,Orthopedic,2,1,1,No,33.8,100,98,Recovered
+736,87,Female,Diabetes,2,2,1,No,27.0,163,102,First Time
+737,50,Male,Neurological,1,None,Medication,No,20.4,148,102,First Time
+738,70,Male,Gastrointestinal,2,Asthma,Medication,No,27.2,151,91,Complication
+739,39,Male,Neurological,3,Asthma,Surgery,No,20.6,170,77,Complication
+740,38,Male,Neurological,1,None,1,No,28.3,125,76,Re-admitted
+741,87,Male,Infectious,3,None,Medication,Yes,26.5,145,93,Re-admitted
+742,87,Male,Respiratory,1,1,1,No,28.8,179,98,Re-admitted
+743,21,Other,Neurological,1,Asthma,Medication,No,18.7,110,66,Recovered
+744,79,Male,Cancer,1,None,0,No,21.7,102,101,Re-admitted
+745,79,Male,Respiratory,1,"Diabetes, BP",2,No,26.6,98,113,Recovered
+746,41,Female,Heart Disease,3,"Diabetes, BP",Therapy,Yes,34.2,100,112,Recovered
+747,72,Male,Neurological,1,Asthma,0,No,24.8,164,94,Re-admitted
+748,26,Female,Neurological,2,None,Therapy,No,25.5,159,89,Re-admitted
+749,20,Female,Heart Disease,1,1,Medication,No,30.3,90,71,Recovered
+750,48,Female,Neurological,2,1,2,Yes,28.5,159,94,Complication
+751,57,Male,Heart Disease,2,1,2,No,23.4,166,70,First Time
+752,53,Male,Respiratory,1,0,Medication,No,25.3,175,103,First Time
+753,41,Male,Cancer,1,Asthma,Medication,Yes,22.1,145,116,First Time
+754,23,Female,Heart Disease,3,1,1,No,34.4,120,63,Complication
+755,83,Male,Diabetes,1,"Diabetes, BP",Medication,No,20.7,175,84,Recovered
+756,21,Male,Infectious,2,None,Surgery,No,24.6,126,107,Re-admitted
+757,23,Other,Infectious,1,2,Medication,No,18.9,136,91,Recovered
+758,68,Male,Heart Disease,2,2,Surgery,No,22.2,167,79,Recovered
+759,79,Male,Infectious,1,1,Medication,No,31.4,136,109,Re-admitted
+760,74,Male,Neurological,2,2,1,No,21.8,158,90,Complication
+761,83,Female,Gastrointestinal,1,2,Surgery,Yes,19.8,147,63,First Time
+762,25,Male,Gastrointestinal,3,0,0,Yes,26.3,125,113,First Time
+763,43,Female,Infectious,1,"Diabetes, BP",Surgery,No,18.7,121,97,Recovered
+764,68,Female,Respiratory,2,"Diabetes, BP",1,No,19.9,153,112,Complication
+765,62,Male,Orthopedic,2,0,Therapy,Yes,31.8,160,106,First Time
+766,61,Female,Respiratory,1,0,Surgery,No,31.2,131,60,Complication
+767,22,Male,Orthopedic,2,2,Medication,No,33.6,137,62,Re-admitted
+768,87,Male,Gastrointestinal,1,Asthma,Medication,Yes,32.6,163,96,Recovered
+769,43,Female,Gastrointestinal,3,None,Therapy,No,29.8,170,81,Recovered
+770,85,Female,Heart Disease,3,None,1,Yes,19.4,119,76,Complication
+771,36,Female,Cancer,3,2,2,No,31.4,110,73,First Time
+772,37,Female,Diabetes,1,None,Medication,No,32.5,149,100,Complication
+773,29,Male,Respiratory,2,0,0,No,31.7,102,94,Re-admitted
+774,64,Male,Neurological,2,"Diabetes, BP",1,Yes,26.9,90,117,First Time
+775,18,Male,Orthopedic,3,None,Surgery,No,22.3,154,72,First Time
+776,31,Male,Infectious,2,2,Surgery,No,32.4,122,94,Complication
+777,81,Male,Neurological,3,Asthma,0,No,30.5,127,102,Re-admitted
+778,55,Male,Cancer,2,2,Medication,Yes,34.7,114,61,First Time
+779,54,Male,Orthopedic,2,1,1,No,21.1,115,115,Recovered
+780,28,Male,Respiratory,1,2,0,No,22.2,166,106,Re-admitted
+781,20,Female,Heart Disease,2,0,Medication,No,22.0,148,72,First Time
+782,50,Female,Neurological,2,"Diabetes, BP",1,No,31.6,122,110,Complication
+783,23,Male,Cancer,2,"Diabetes, BP",Surgery,No,21.6,130,113,First Time
+784,67,Female,Respiratory,2,None,1,No,19.6,119,75,Recovered
+785,27,Female,Gastrointestinal,2,0,Therapy,Yes,35.0,146,77,Re-admitted
+786,22,Male,Gastrointestinal,1,1,2,No,18.9,138,66,First Time
+787,40,Female,Respiratory,2,0,1,Yes,32.3,137,104,Recovered
+788,27,Female,Respiratory,2,2,2,No,24.5,161,95,First Time
+789,61,Female,Respiratory,2,0,1,Yes,32.4,138,100,First Time
+790,19,Male,Orthopedic,1,0,2,No,27.7,136,89,Re-admitted
+791,30,Female,Respiratory,1,1,Therapy,Yes,33.4,145,101,Complication
+792,57,Male,Neurological,1,2,Surgery,No,33.8,154,100,Complication
+793,19,Female,Cancer,2,Asthma,Medication,No,18.7,101,66,Recovered
+794,82,Female,Orthopedic,1,Asthma,2,Yes,19.7,158,74,Recovered
+795,80,Female,Respiratory,2,"Diabetes, BP",Therapy,Yes,22.6,177,119,Recovered
+796,34,Female,Diabetes,3,None,2,Yes,29.5,95,99,Re-admitted
+797,26,Female,Infectious,1,0,Surgery,No,33.2,178,78,Complication
+798,32,Male,Diabetes,2,"Diabetes, BP",2,No,26.1,154,102,Recovered
+799,41,Male,Cancer,2,1,Therapy,No,28.5,114,96,Recovered
+800,55,Female,Gastrointestinal,3,Asthma,Therapy,Yes,21.6,90,61,First Time
+801,52,Male,Heart Disease,2,0,0,No,31.8,121,101,First Time
+802,66,Male,Heart Disease,2,1,Surgery,No,34.5,92,107,Recovered
+803,86,Male,Infectious,3,None,0,No,22.9,138,114,First Time
+804,79,Male,Gastrointestinal,2,1,Surgery,No,26.7,108,72,First Time
+805,77,Female,Orthopedic,3,0,2,Yes,19.9,149,99,First Time
+806,67,Female,Orthopedic,1,None,Therapy,Yes,27.7,118,100,Re-admitted
+807,26,Female,Orthopedic,3,1,0,Yes,26.8,139,102,Recovered
+808,51,Female,Heart Disease,2,None,2,Yes,20.9,91,102,Recovered
+809,52,Male,Diabetes,2,0,Therapy,Yes,25.8,162,114,First Time
+810,18,Male,Heart Disease,1,0,Surgery,Yes,24.0,145,117,Re-admitted
+811,57,Female,Neurological,2,None,Therapy,No,27.1,106,90,First Time
+812,81,Male,Respiratory,1,2,2,No,28.2,149,75,Re-admitted
+813,39,Female,Orthopedic,3,"Diabetes, BP",0,No,18.6,125,101,Recovered
+814,77,Female,Diabetes,3,1,0,No,31.1,150,115,First Time
+815,81,Male,Cancer,1,1,Therapy,No,30.3,106,103,Recovered
+816,89,Female,Infectious,3,2,2,Yes,24.5,138,116,Re-admitted
+817,28,Female,Cancer,2,2,1,No,19.4,165,65,Complication
+818,31,Female,Respiratory,2,2,Surgery,Yes,31.0,149,87,Re-admitted
+819,77,Male,Diabetes,1,Asthma,Surgery,No,34.3,109,91,Complication
+820,47,Male,Heart Disease,1,Asthma,2,No,22.5,139,103,Recovered
+821,52,Female,Heart Disease,1,None,1,No,23.8,92,69,Recovered
+822,54,Male,Neurological,1,Asthma,0,Yes,21.5,132,109,First Time
+823,22,Male,Neurological,3,0,Medication,Yes,28.0,146,77,Complication
+824,43,Female,Heart Disease,1,None,Medication,No,21.1,139,63,Re-admitted
+825,79,Male,Cancer,3,1,2,Yes,24.4,157,68,Recovered
+826,21,Female,Infectious,1,"Diabetes, BP",1,No,30.0,170,66,Complication
+827,59,Female,Orthopedic,2,0,1,No,27.7,139,109,Re-admitted
+828,35,Female,Cancer,2,1,Surgery,No,24.9,126,67,Complication
+829,57,Male,Infectious,3,1,0,No,25.4,135,102,Re-admitted
+830,89,Female,Neurological,1,None,Therapy,No,27.8,131,66,Re-admitted
+831,56,Male,Respiratory,2,2,1,Yes,18.6,104,100,Re-admitted
+832,31,Male,Infectious,2,2,Therapy,No,19.8,122,99,Re-admitted
+833,49,Female,Heart Disease,1,0,Medication,No,33.0,169,62,Complication
+834,68,Male,Neurological,1,2,Therapy,No,19.8,100,76,Complication
+835,55,Male,Neurological,2,1,0,Yes,30.2,109,61,First Time
+836,40,Female,Orthopedic,2,2,0,No,33.7,113,74,Complication
+837,80,Male,Heart Disease,2,Asthma,Therapy,No,23.0,153,105,Complication
+838,32,Male,Orthopedic,1,2,2,No,24.6,169,88,First Time
+839,42,Female,Heart Disease,2,1,1,No,27.9,154,109,Complication
+840,34,Female,Orthopedic,2,None,2,Yes,33.0,177,107,Re-admitted
+841,83,Female,Infectious,2,0,Therapy,No,34.0,177,111,Recovered
+842,70,Male,Cancer,3,"Diabetes, BP",1,No,30.7,162,81,Recovered
+843,68,Male,Respiratory,2,2,Surgery,No,19.9,175,63,First Time
+844,56,Male,Respiratory,2,1,2,No,29.5,165,116,Complication
+845,68,Male,Heart Disease,1,"Diabetes, BP",2,Yes,25.3,106,111,Complication
+846,87,Female,Diabetes,2,"Diabetes, BP",Therapy,No,26.3,178,65,First Time
+847,23,Male,Gastrointestinal,1,Asthma,Medication,No,19.3,150,97,Recovered
+848,84,Male,Neurological,2,"Diabetes, BP",Therapy,No,21.7,104,85,Re-admitted
+849,24,Female,Neurological,2,None,2,No,31.5,140,70,Complication
+850,68,Female,Heart Disease,3,1,1,No,26.0,116,85,First Time
+851,89,Female,Infectious,1,1,Medication,No,23.5,175,76,Re-admitted
+852,59,Male,Orthopedic,2,2,Therapy,Yes,24.8,163,83,First Time
+853,81,Male,Diabetes,2,2,Therapy,No,32.6,150,87,First Time
+854,32,Male,Cancer,1,2,2,No,30.9,147,94,First Time
+855,46,Male,Orthopedic,1,None,2,No,23.0,120,90,Recovered
+856,50,Female,Orthopedic,1,"Diabetes, BP",Surgery,No,20.4,101,72,Recovered
+857,44,Female,Heart Disease,1,"Diabetes, BP",Therapy,No,22.7,135,113,First Time
+858,53,Female,Heart Disease,1,Asthma,2,No,33.7,120,94,Complication
+859,46,Female,Infectious,1,None,0,No,28.1,121,75,Re-admitted
+860,55,Male,Neurological,1,2,Medication,Yes,27.3,121,74,Complication
+861,74,Female,Heart Disease,2,0,0,No,28.3,142,102,Recovered
+862,44,Male,Heart Disease,2,Asthma,Medication,Yes,24.5,150,77,Re-admitted
+863,72,Female,Heart Disease,3,0,Therapy,No,31.8,135,106,First Time
+864,50,Female,Infectious,2,"Diabetes, BP",Surgery,Yes,27.1,174,96,Complication
+865,85,Male,Neurological,2,Asthma,2,No,20.4,163,107,Complication
+866,83,Male,Cancer,3,Asthma,2,No,20.6,169,107,First Time
+867,27,Female,Cancer,2,1,2,No,27.4,96,108,Complication
+868,22,Male,Gastrointestinal,2,"Diabetes, BP",Therapy,No,34.0,93,100,Recovered
+869,55,Male,Gastrointestinal,2,"Diabetes, BP",Medication,No,23.6,141,86,First Time
+870,30,Male,Heart Disease,1,None,2,Yes,32.8,178,114,Complication
+871,48,Female,Gastrointestinal,1,Asthma,0,No,31.1,120,94,First Time
+872,64,Female,Neurological,2,"Diabetes, BP",2,No,22.6,164,111,Re-admitted
+873,69,Female,Infectious,2,Asthma,Therapy,Yes,19.1,173,104,First Time
+874,73,Male,Cancer,1,None,Surgery,No,20.2,125,113,Complication
+875,32,Female,Orthopedic,3,None,0,No,30.5,143,94,Recovered
+876,46,Male,Cancer,2,1,2,No,21.8,143,87,First Time
+877,25,Female,Cancer,2,Asthma,2,Yes,24.6,106,98,First Time
+878,22,Female,Neurological,3,"Diabetes, BP",1,No,26.8,164,97,Complication
+879,46,Male,Gastrointestinal,2,"Diabetes, BP",Medication,Yes,30.5,119,68,Recovered
+880,64,Male,Orthopedic,3,Asthma,0,Yes,20.4,111,71,Recovered
+881,85,Male,Neurological,2,Asthma,1,No,25.2,132,74,Re-admitted
+882,62,Male,Heart Disease,1,Asthma,Surgery,No,26.5,116,80,Re-admitted
+883,19,Male,Infectious,2,2,Medication,No,27.4,126,111,Complication
+884,44,Female,Respiratory,2,"Diabetes, BP",0,Yes,32.0,135,94,Recovered
+885,53,Female,Cancer,2,None,2,No,21.3,124,101,Recovered
+886,53,Male,Respiratory,3,"Diabetes, BP",0,No,31.8,93,92,Re-admitted
+887,43,Male,Infectious,2,2,2,No,29.9,169,110,Re-admitted
+888,60,Male,Infectious,2,Asthma,Medication,No,27.7,169,78,Complication
+889,44,Female,Neurological,3,1,2,Yes,30.0,174,114,Recovered
+890,86,Male,Neurological,2,Asthma,Surgery,No,25.3,115,82,First Time
+891,37,Female,Neurological,2,Asthma,Therapy,No,20.8,108,72,Re-admitted
+892,28,Female,Respiratory,3,2,2,Yes,29.5,170,103,Complication
+893,55,Female,Neurological,1,"Diabetes, BP",Surgery,Yes,27.2,134,60,Recovered
+894,23,Female,Infectious,2,Asthma,Therapy,Yes,29.0,115,110,Recovered
+895,89,Male,Heart Disease,3,"Diabetes, BP",Medication,Yes,24.1,111,88,Re-admitted
+896,40,Female,Neurological,2,0,Medication,No,33.5,147,83,Complication
+897,64,Male,Diabetes,2,None,0,No,28.2,152,75,First Time
+898,63,Male,Gastrointestinal,2,"Diabetes, BP",Surgery,Yes,19.9,117,84,Re-admitted
+899,29,Female,Respiratory,2,1,Surgery,Yes,25.9,154,114,Complication
+900,30,Female,Diabetes,3,None,1,No,31.0,133,82,Recovered
+901,79,Female,Neurological,1,1,1,No,31.6,132,87,First Time
+902,77,Male,Infectious,1,Asthma,Therapy,No,26.7,126,106,Complication
+903,60,Male,Heart Disease,1,None,Therapy,No,33.3,155,75,First Time
+904,85,Female,Cancer,2,"Diabetes, BP",1,No,22.9,106,102,Complication
+905,22,Male,Orthopedic,2,None,Therapy,Yes,25.3,129,115,Complication
+906,54,Female,Gastrointestinal,3,Asthma,2,Yes,33.3,127,97,Complication
+907,89,Female,Orthopedic,2,2,1,No,33.3,174,70,Complication
+908,48,Female,Neurological,2,1,Surgery,No,29.8,150,62,First Time
+909,26,Male,Gastrointestinal,1,Asthma,2,No,32.7,98,74,Re-admitted
+910,68,Male,Gastrointestinal,2,2,Therapy,No,20.0,166,60,First Time
+911,46,Male,Heart Disease,2,None,Medication,No,32.8,164,66,Complication
+912,57,Female,Gastrointestinal,1,None,0,Yes,23.8,150,60,First Time
+913,58,Male,Respiratory,1,Asthma,1,No,21.4,169,108,First Time
+914,28,Female,Diabetes,1,"Diabetes, BP",Medication,Yes,22.4,105,91,First Time
+915,40,Male,Diabetes,1,None,Therapy,Yes,25.4,91,68,Complication
+916,18,Other,Diabetes,2,"Diabetes, BP",Surgery,No,22.6,161,88,First Time
+917,63,Male,Respiratory,1,"Diabetes, BP",0,No,23.8,132,85,Recovered
+918,38,Male,Orthopedic,2,"Diabetes, BP",Medication,No,20.7,131,82,Complication
+919,53,Male,Heart Disease,3,0,0,No,23.4,166,104,First Time
+920,71,Female,Gastrointestinal,2,2,1,Yes,27.9,146,102,Recovered
+921,74,Female,Respiratory,3,2,Therapy,Yes,25.8,170,88,First Time
+922,18,Female,Diabetes,2,None,Surgery,No,24.2,177,111,Re-admitted
+923,80,Male,Neurological,2,None,Therapy,No,30.8,156,97,First Time
+924,71,Male,Cancer,3,"Diabetes, BP",0,No,33.2,119,92,First Time
+925,72,Female,Gastrointestinal,1,0,Medication,No,31.0,102,66,Re-admitted
+926,57,Male,Respiratory,3,"Diabetes, BP",1,No,24.0,108,71,Complication
+927,32,Male,Infectious,1,0,1,No,30.8,96,90,Re-admitted
+928,38,Other,Respiratory,2,"Diabetes, BP",Therapy,Yes,21.0,98,91,Complication
+929,64,Female,Heart Disease,1,1,Medication,No,20.7,172,113,Re-admitted
+930,70,Female,Heart Disease,2,1,Medication,No,24.2,143,79,First Time
+931,26,Female,Respiratory,2,Asthma,0,Yes,31.8,175,114,First Time
+932,69,Male,Diabetes,2,"Diabetes, BP",Therapy,No,22.6,171,110,Complication
+933,74,Male,Cancer,1,None,Therapy,No,19.5,150,76,Complication
+934,43,Female,Gastrointestinal,1,2,2,No,20.7,176,95,Recovered
+935,58,Female,Heart Disease,1,Asthma,Therapy,Yes,32.7,91,62,Recovered
+936,52,Male,Gastrointestinal,1,None,1,No,29.0,139,60,First Time
+937,80,Male,Diabetes,3,1,0,Yes,22.7,164,109,First Time
+938,42,Male,Gastrointestinal,1,"Diabetes, BP",Medication,No,27.7,120,86,Recovered
+939,55,Female,Neurological,3,Asthma,Therapy,Yes,27.2,122,112,Recovered
+940,19,Female,Heart Disease,3,"Diabetes, BP",0,Yes,29.3,167,106,Complication
+941,24,Female,Diabetes,1,1,Therapy,No,22.3,169,99,Re-admitted
+942,51,Male,Diabetes,2,Asthma,Medication,No,32.8,100,92,Complication
+943,34,Female,Cancer,1,1,Surgery,Yes,23.6,122,79,Recovered
+944,60,Female,Cancer,1,0,Medication,Yes,30.0,96,73,First Time
+945,76,Male,Neurological,1,1,Medication,No,18.8,120,95,Recovered
+946,68,Male,Diabetes,2,"Diabetes, BP",Medication,No,24.6,137,64,First Time
+947,71,Male,Orthopedic,2,2,Therapy,No,24.3,136,82,First Time
+948,41,Male,Diabetes,2,1,2,Yes,27.5,167,104,First Time
+949,42,Female,Cancer,2,None,Medication,No,19.7,142,119,First Time
+950,88,Male,Orthopedic,1,2,1,Yes,31.5,169,115,Re-admitted
+951,69,Female,Heart Disease,2,0,1,Yes,22.1,108,74,Recovered
+952,87,Male,Heart Disease,2,Asthma,0,No,29.7,170,65,Complication
+953,50,Male,Gastrointestinal,1,Asthma,2,No,31.8,179,92,First Time
+954,66,Male,Respiratory,1,2,0,No,27.8,95,114,First Time
+955,46,Male,Cancer,2,Asthma,1,No,30.7,138,78,Complication
+956,80,Female,Respiratory,1,1,1,No,29.4,162,72,Complication
+957,39,Female,Orthopedic,2,2,Surgery,No,24.4,139,88,First Time
+958,43,Female,Cancer,1,"Diabetes, BP",Medication,No,31.8,170,65,Complication
+959,45,Female,Neurological,1,1,1,Yes,23.4,101,74,Complication
+960,66,Male,Diabetes,1,1,Therapy,Yes,27.9,112,75,Re-admitted
+961,88,Male,Neurological,1,1,Therapy,No,30.8,143,83,Complication
+962,66,Male,Orthopedic,2,"Diabetes, BP",0,No,24.8,158,82,Recovered
+963,37,Female,Cancer,2,0,0,Yes,23.5,148,107,Recovered
+964,80,Male,Infectious,2,None,Medication,No,26.1,125,69,Recovered
+965,78,Male,Orthopedic,3,Asthma,Medication,Yes,32.0,92,113,First Time
+966,66,Female,Infectious,2,2,Surgery,No,33.8,147,100,Recovered
+967,88,Male,Diabetes,2,0,2,Yes,27.5,177,100,Re-admitted
+968,18,Male,Heart Disease,1,2,0,No,29.4,144,108,Recovered
+969,30,Male,Heart Disease,2,Asthma,Medication,No,33.4,146,76,First Time
+970,68,Female,Orthopedic,2,"Diabetes, BP",0,Yes,20.1,106,108,Re-admitted
+971,73,Female,Respiratory,1,1,Medication,No,22.3,128,115,Recovered
+972,79,Female,Cancer,2,1,1,No,30.2,179,103,Re-admitted
+973,49,Male,Cancer,1,"Diabetes, BP",0,No,32.1,157,104,Re-admitted
+974,47,Other,Heart Disease,2,0,1,No,32.6,144,89,First Time
+975,46,Female,Gastrointestinal,3,0,0,No,25.3,134,103,First Time
+976,66,Male,Neurological,3,2,2,Yes,20.0,165,105,Re-admitted
+977,62,Female,Gastrointestinal,2,"Diabetes, BP",Surgery,No,25.7,90,69,Recovered
+978,47,Male,Diabetes,2,0,Therapy,Yes,22.3,110,114,First Time
+979,33,Female,Neurological,2,"Diabetes, BP",Therapy,Yes,23.3,172,78,Re-admitted
+980,57,Female,Neurological,2,Asthma,Therapy,Yes,31.2,110,88,Complication
+981,36,Male,Orthopedic,1,1,1,No,19.7,141,61,Complication
+982,35,Female,Heart Disease,2,1,Medication,No,32.2,171,95,First Time
+983,18,Female,Gastrointestinal,2,1,Therapy,Yes,25.6,132,78,Recovered
+984,64,Female,Gastrointestinal,3,"Diabetes, BP",2,Yes,28.3,141,66,Complication
+985,83,Male,Heart Disease,2,"Diabetes, BP",Therapy,No,20.0,156,85,Complication
+986,55,Male,Gastrointestinal,2,2,0,Yes,24.1,133,74,Complication
+987,68,Male,Infectious,2,1,1,Yes,20.0,121,106,Recovered
+988,80,Female,Heart Disease,2,2,0,Yes,34.4,99,115,Recovered
+989,21,Male,Orthopedic,2,1,0,No,31.8,153,97,First Time
+990,18,Female,Respiratory,1,2,0,No,26.1,168,62,First Time
+991,25,Female,Neurological,2,2,Surgery,No,22.2,158,97,Complication
+992,46,Male,Orthopedic,3,Asthma,Surgery,No,33.9,157,75,Recovered
+993,72,Female,Cancer,2,2,Medication,No,24.2,117,61,Re-admitted
+994,20,Male,Diabetes,1,"Diabetes, BP",1,No,21.2,142,90,Complication
+995,49,Female,Respiratory,2,2,2,No,27.8,140,87,First Time
+996,27,Female,Cancer,3,1,2,No,34.1,142,66,Recovered
+997,51,Male,Neurological,1,2,2,Yes,18.6,93,89,First Time
+998,72,Male,Gastrointestinal,2,0,0,Yes,22.4,168,102,First Time
+999,49,Male,Heart Disease,3,None,Surgery,No,34.0,106,117,Recovered
+1000,67,Female,Neurological,2,1,1,No,21.3,156,66,Complication
